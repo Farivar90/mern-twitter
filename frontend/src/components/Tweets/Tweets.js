@@ -12,11 +12,11 @@ function Tweets () {
     return () => dispatch(clearTweetErrors());
   }, [dispatch])
 
-  if (tweets.length === 0) return <div>There are no Tweets</div>;
+  if (tweets.length === 0) return <div>There are no Streams</div>;
   
   return (
     <>
-      <h2>All Tweets</h2>
+      <h2>All Streams</h2>
       {tweets.map(tweet => (
         <TweetBox key={tweet._id} tweet={tweet} />
       ))}

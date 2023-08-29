@@ -37,11 +37,11 @@ function TweetCompose () {
         <input type="submit" value="Submit" />
       </form>
       <div className="tweet-preview">
-        <h3>Tweet Preview</h3>
+        <h3>Stream Preview</h3>
         {text ? <TweetBox tweet={{text, author}} /> : undefined}
       </div>
       <div className="previous-tweet">
-        <h3>Previous Tweet</h3>
+        <h3>Previous Stream</h3>
         {newTweet ? <TweetBox tweet={newTweet} /> : undefined}
       </div>
     </>

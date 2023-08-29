@@ -1,25 +1,40 @@
-.session-form > label {
-    width: 100%;
-    padding: 4px 0;
-    text-align: right;
-  }
-  
-  .session-form > label > span {
-    display: inline-block;
-    padding: 0 10px;
-  }
-  
-  .session-form > input {
-    width: 200px;
-  }
-  
-  .session-form > input[type="submit"] {
-    width: 100%;
-  }
-  
-  .session-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-  }
+.session-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.session-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.session-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.session-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.session-form input[type="submit"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.session-form .errors {
+  color: red;
+  margin-bottom: 10px;
+}

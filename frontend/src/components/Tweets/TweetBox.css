@@ -1,10 +1,16 @@
-p, h3 {
-    margin-left: 5px;
-  }
-  
-  .tweet {
-    border: 2px solid blue;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    min-height: 57px;
-  }
+.tweet {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.tweet h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.tweet p {
+  font-size: 16px;
+}

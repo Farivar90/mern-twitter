@@ -1,0 +1,14 @@
+.profile {
+    padding: 20px;
+  }
+  
+  .profile-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .tweets-container {
+    display: grid;
+    gap: 20px;
+  }
+  
